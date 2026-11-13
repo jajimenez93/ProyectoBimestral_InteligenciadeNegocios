@@ -9,7 +9,7 @@ Para desarrollar el proyecto se utilizarán 2 conjuntos de datos abiertos del Mi
 
 Se busca disponer de información organizada que permita comparar los registros de matrícula estudiantil al inicio y al final del año lectivo.
 
-*Pregunta de análisis de Inteligencia de Negocios:
+*Pregunta de análisis para Inteligencia de Negocios:
 
 ¿Como varia la matruicula estudiantil entre el inicio y el final del año lectivo en las instituciones educativas del Ecuador?
 
@@ -45,15 +45,13 @@ https://www.datosabiertos.gob.ec/dataset/descomposicion-de-la-matricula-mineduc
 
 ----4. Importancia de integrar las fuentes----
 
-La integración de los dos conjuntos de datos permitirá relacionar la información registrada al inicio y al final del año lectivo.
-
-Mediante campos comunes, como el código AMIE de las instituciones educativas y el año lectivo, se buscará obtener un conjunto de datos que facilite la comparación de la matrícula estudiantil.
+La integración de los dos conjuntos de datos permitira relacionar la información registrada al inicio y al final del año lectivo mediante campos comunes, como el código AMIE de las instituciones educativas y el año lectivo, se buscara obtener un conjunto de datos que facilite la comparación de la matrícula estudiantil.
 
 Antes de realizar la integración, será necesario revisar la calidad de los datos, identificar registros compatibles y estandarizar los campos correspondientes.
 
 ----5. Información que se espera obtener----
 
-Una vez completado el proceso ETL, se espera disponer de datos integrados que permitan:
+Una vez este  completado el proceso ETL, se espera disponer de datos integrados que permitan:
 
 - Comparar la matrícula al inicio y al final del año lectivo.
 - Analizar las diferencias de matrícula por provincia.
