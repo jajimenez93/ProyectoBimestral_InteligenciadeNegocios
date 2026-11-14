@@ -57,7 +57,7 @@ El repositorio contiene los archivos y documentos utilizados para el desarrollo 
 
 ===Archivos CSV utilizados===
 
-En la carpeta datos/ se encuentran los dos conjuntos de datos originales del Ministerio de Educación del Ecuador:
+En la carpeta datos_fuente se encuentran los dos conjuntos de datos originales del Ministerio de Educación del Ecuador:
 
 - registro-administrativo-historico_2009-2024-inicio.csv: Datos registrados al inicio del año lectivo.
 
@@ -75,7 +75,14 @@ En la carpeta documentacion/ se encuentran:
 
 ===Código del proyecto===
 
-etl_matriculas.py: Programa Python utilizado para leer y verificar los archivos CSV originales.
+En la carpeta scripts_etl se encuentra el archivo etl_matriculas.py desarrollado en Python con la biblioteca pandas. Este programa Python esta utilizado para leer y verificar los archivos CSV originales.
+
+===Datos Resultantes===
+En la carpeta datos_resultantes se almacenará el conjunto de datos integrado que se obtendrá después de realizar las etapas de transformación, integración y carga del proceso ETL.
+
+===Evidencias del Proyecto===
+En la carpeta evidencias se guardarán las capturas de pantalla y demás evidencias que permitan comprobar el desarrollo y funcionamiento del proceso Extraccion,Transformacion y Carga de datos(ETL).
+
 
 ## 7. Resultados
 
