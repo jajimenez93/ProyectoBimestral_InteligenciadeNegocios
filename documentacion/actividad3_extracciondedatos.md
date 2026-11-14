@@ -1,10 +1,10 @@
 =====Actividad 3: Proceso ETL — Extracción de los datos=====
 
-# 1. Objetivo
+--- 1. Objetivo
 
 Extraer los datos de matrícula estudiantil del Ecuador registrados al inicio y al final del año lectivo, utilizando dos archivos CSV del Ministerio de Educación, para comprobar que puedan leerse correctamente y estén disponibles para las siguientes etapas del proceso ETL.
 
-# 2. Fuentes de datos utilizadas
+--- 2. Fuentes de datos utilizadas
 
 *Fuente 1: Registro de Matrícula — Inicio
 
@@ -22,7 +22,7 @@ Extraer los datos de matrícula estudiantil del Ecuador registrados al inicio y 
 - Registros: 286.111
 - Columnas: 23
 
-# 3. Proceso de extracción
+--- 3. Proceso de extracción
 
 Se utiliza Python y la biblioteca de `pandas` para leer los dos archivos CSV mediante la función `read_csv()`.
 
@@ -30,7 +30,7 @@ El proceso se realizó en el archivo `etl_matriculas.py`, utilizando el parámet
 
 Luego se utilizaron `shape` y `columns` para comprobar la cantidad de registros, el número de columnas y los nombres de los atributos disponibles.
 
-# 4. Resultados de la extracción
+--- 4. Resultados de la extracción
 
 La lectura de ambos archivos se realizó correctamente.
 
@@ -38,12 +38,12 @@ Se identificaron tambien campos comunes como `Año_lectivo`, `Provincia`, `Canto
 
 Durante la lectura se presentó una advertencia relacionada con tipos de datos mixtos en algunas columnas, esta observación deberá considerarse en la etapa de diagnóstico y transformación.
 
-# 5. Conservación de los datos originales
+--- 5. Conservación de los datos originales
 
 Los dos archivos CSV se mantienen en la carpeta `datos` sin modificaciones.
 
 La extracción realizada permite disponer de la información original para las siguientes etapas del proyecto, sin efectuar todavía procesos de limpieza, transformación o integración de los datos.
 
-# 6. Conclusión
+--- 6. Conclusión
 
 Se completó la extracción inicial de las dos fuentes de datos del Ministerio de Educación. Se comprobó que ambos archivos pueden leerse mediante Python y que sus columnas están disponibles para continuar con el proceso ETL.
