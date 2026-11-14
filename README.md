@@ -10,7 +10,7 @@ Docente: Ing. Angel Eduardo Encalada Encalada
 
 Asignatura: Introduccion a la Inteligencia de Negocios
 
-===============================================================================================
+==========================================================================================
 
 ## 1. Tema del proyecto
 
@@ -53,10 +53,29 @@ El proyecto contempla tres etapas:
 
 ## 6. Organización del repositorio
 
-- `datos_fuente/`: Archivos CSV originales.
-- `scripts_etl/`: Código utilizado para procesar e integrar los datos.
-- `datos_resultantes/`: Archivos generados después del proceso ETL.
-- `evidencias/`: Capturas y evidencias del desarrollo.
+El repositorio contiene los archivos y documentos utilizados para el desarrollo del proyecto.
+
+===Archivos CSV utilizados===
+
+En la carpeta datos/ se encuentran los dos conjuntos de datos originales del Ministerio de Educación del Ecuador:
+
+- registro-administrativo-historico_2009-2024-inicio.csv: Datos registrados al inicio del año lectivo.
+
+- registro-administrativo-historico_2009-2024-fin.csv: Datos registrados al finalizar el año lectivo.
+
+===Documentación de las actividades===
+
+En la carpeta documentacion/ se encuentran:
+
+- actividad1_fuentesdedatos.md: Selección de la temática, necesidad de información y fuentes de datos.
+
+- actividad3_extracciondedatos.md: Proceso de extracción de los archivos CSV.
+
+- actividad4_almacenamientodedatos.md: Propuesta de almacenamiento de los datos.
+
+===Código del proyecto===
+
+etl_matriculas.py: Programa Python utilizado para leer y verificar los archivos CSV originales.
 
 ## 7. Resultados
 
@@ -64,7 +83,7 @@ El proyecto contempla tres etapas:
 
 ## 8. Propuesta de almacenamiento
 
-Se evaluará el uso de un Data Mart educativo para organizar los datos integrados y facilitar su análisis.
+Se propone utilizar un Data Warehouse para almacenar y organizar los datos educativos integrados para que se mas facil el analisis y la comparacion.
 
 ## 9. Conclusiones
 
