@@ -11,7 +11,7 @@ Se busca disponer de información organizada que permita comparar los registros 
 
 *Pregunta de análisis para Inteligencia de Negocios:
 
-¿Como varia la matruicula estudiantil entre el inicio y el final del año lectivo en las instituciones educativas del Ecuador?
+¿Cómo varía el total de estudiantes matriculados entre el inicio y el final de cada año lectivo en las instituciones educativas del Ecuador según la provincia durante el período 2009–2024?
 
 ----3. Selección de fuentes de datos----
 
